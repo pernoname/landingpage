@@ -1,0 +1,251 @@
+:root {
+    --blue-900: #0B3B6F;
+    --blue-700: #1359A3;
+    --blue-500: #2E7DD1;
+    --blue-100: #E7F1FC;
+    --blue-50: #F5F9FE;
+    --white: #FFFFFF;
+    --ink: #0F2438;
+    --muted: #5B7086;
+    --radius: 22px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background:
+        radial-gradient(1200px 500px at 50% -10%, var(--blue-100), transparent 60%),
+        var(--white);
+    color: var(--ink);
+    min-height: 100vh;
+    padding: 56px 20px 80px;
+}
+
+.wrap {
+    max-width: 640px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--blue-100);
+    color: var(--blue-700);
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: .02em;
+    padding: 7px 16px;
+    border-radius: 999px;
+    margin-bottom: 18px;
+}
+
+.eyebrow .dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--blue-500);
+}
+
+h1 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 800;
+    font-size: clamp(28px, 5vw, 40px);
+    line-height: 1.2;
+    color: var(--blue-900);
+    max-width: 520px;
+}
+
+.subtitle {
+    margin-top: 14px;
+    color: var(--muted);
+    font-size: 15.5px;
+    line-height: 1.6;
+    max-width: 440px;
+}
+
+.list {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: var(--white);
+    border: 1px solid #E7EEF6;
+    border-radius: var(--radius);
+    padding: 14px 18px;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 6px 18px rgba(19, 89, 163, 0.06);
+    transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 28px rgba(19, 89, 163, 0.14);
+    border-color: var(--blue-100);
+}
+
+.thumb {
+    width: 56px;
+    height: 56px;
+    flex: 0 0 56px;
+    border-radius: 16px;
+    overflow: hidden;
+    background: var(--blue-100);
+}
+
+.thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.card-title {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 600;
+    font-size: 16.5px;
+    color: var(--ink);
+    text-align: left;
+    flex: 1;
+}
+
+.card-sub {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--muted);
+    margin-top: 3px;
+}
+
+.chevron {
+    flex: 0 0 auto;
+    color: var(--blue-500);
+    opacity: .6;
+    transition: transform .18s ease, opacity .18s ease;
+}
+
+.card:hover .chevron {
+    transform: translateX(3px);
+    opacity: 1;
+}
+
+/* Block cuối: liên hệ */
+.contact-card {
+    background: var(--blue-900);
+    border: none;
+    padding: 22px;
+    flex-direction: column;
+    align-items: stretch;
+    box-shadow: 0 14px 30px rgba(11, 59, 111, 0.25);
+}
+
+.contact-card:hover {
+    transform: none;
+}
+
+.contact-title {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 16px;
+    padding: 12px 14px;
+    text-decoration: none;
+    transition: background .18s ease, transform .18s ease;
+}
+
+.contact-item:hover {
+    background: rgba(255, 255, 255, 0.16);
+    transform: translateY(-2px);
+}
+
+.contact-icon {
+    width: 38px;
+    height: 38px;
+    flex: 0 0 38px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-zalo {
+    background: #ffffff;
+}
+
+.icon-telegram {
+    background: #ffffff;
+}
+
+.contact-item-title {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 600;
+    font-size: 14.5px;
+    color: #fff;
+    text-align: left;
+}
+
+.contact-item-sub {
+    display: block;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.65);
+    margin-top: 2px;
+}
+
+footer {
+    margin-top: 48px;
+    font-size: 12.5px;
+    color: var(--muted);
+}
+
+@media (max-width:480px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        padding: 12px 14px;
+        gap: 12px;
+    }
+
+    .thumb {
+        width: 48px;
+        height: 48px;
+        flex: 0 0 48px;
+        border-radius: 13px;
+    }
+}
