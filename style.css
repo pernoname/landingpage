@@ -8,6 +8,13 @@
     --ink: #0F2438;
     --muted: #5B7086;
     --radius: 22px;
+
+    /* Dark background palette */
+    --bg-deep:   #060D1A;
+    --bg-mid:    #0A1628;
+    --glow-1:    rgba(46, 125, 209, 0.28);
+    --glow-2:    rgba(99, 60, 210, 0.20);
+    --glow-3:    rgba(0, 200, 180, 0.14);
 }
 
 * {
@@ -18,12 +25,78 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background:
-        radial-gradient(1200px 500px at 50% -10%, var(--blue-100), transparent 60%),
-        var(--white);
+    background-color: var(--bg-deep);
     color: var(--ink);
     min-height: 100vh;
     padding: 56px 20px 80px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* ── Animated background blobs ── */
+body::before,
+body::after {
+    content: '';
+    position: fixed;
+    border-radius: 50%;
+    filter: blur(80px);
+    pointer-events: none;
+    z-index: 0;
+}
+
+body::before {
+    width: 700px;
+    height: 700px;
+    top: -180px;
+    left: -160px;
+    background: radial-gradient(circle, var(--glow-1) 0%, transparent 70%);
+    animation: blobDrift1 14s ease-in-out infinite alternate;
+}
+
+body::after {
+    width: 600px;
+    height: 600px;
+    bottom: -120px;
+    right: -140px;
+    background: radial-gradient(circle, var(--glow-2) 0%, transparent 70%);
+    animation: blobDrift2 18s ease-in-out infinite alternate;
+}
+
+@keyframes blobDrift1 {
+    from { transform: translate(0, 0)   scale(1);    }
+    to   { transform: translate(80px, 60px) scale(1.12); }
+}
+
+@keyframes blobDrift2 {
+    from { transform: translate(0, 0)    scale(1);    }
+    to   { transform: translate(-60px, -80px) scale(1.1); }
+}
+
+/* Teal accent blob (pseudo on wrap) */
+.wrap::before {
+    content: '';
+    position: fixed;
+    width: 480px;
+    height: 480px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(circle, var(--glow-3) 0%, transparent 65%);
+    filter: blur(70px);
+    pointer-events: none;
+    z-index: 0;
+    animation: blobCenter 22s ease-in-out infinite alternate;
+}
+
+@keyframes blobCenter {
+    from { opacity: .6; transform: translate(-50%, -50%) scale(1);    }
+    to   { opacity: 1;  transform: translate(-50%, -55%) scale(1.15); }
+}
+
+/* Subtle dot-grid overlay */
+body > * {
+    position: relative;
+    z-index: 1;
 }
 
 .wrap {
@@ -39,14 +112,16 @@ body {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    background: var(--blue-100);
-    color: var(--blue-700);
+    background: rgba(46, 125, 209, 0.18);
+    border: 1px solid rgba(46, 125, 209, 0.35);
+    color: #7EC8F8;
     font-weight: 600;
     font-size: 13px;
     letter-spacing: .02em;
     padding: 7px 16px;
     border-radius: 999px;
     margin-bottom: 18px;
+    backdrop-filter: blur(6px);
 }
 
 .eyebrow .dot {
@@ -61,13 +136,14 @@ h1 {
     font-weight: 800;
     font-size: clamp(28px, 5vw, 40px);
     line-height: 1.2;
-    color: var(--blue-900);
+    color: #fff;
     max-width: 520px;
+    text-shadow: 0 2px 24px rgba(46,125,209,0.25);
 }
 
 .subtitle {
     margin-top: 14px;
-    color: var(--muted);
+    color: rgba(255,255,255,0.55);
     font-size: 15.5px;
     line-height: 1.6;
     max-width: 440px;
@@ -85,20 +161,50 @@ h1 {
     display: flex;
     align-items: center;
     gap: 16px;
-    background: var(--white);
-    border: 1px solid #E7EEF6;
+    background: rgba(255,255,255,0.97);
+    border: 1px solid rgba(255,255,255,0.18);
     border-radius: var(--radius);
     padding: 14px 18px;
     text-decoration: none;
     color: inherit;
-    box-shadow: 0 6px 18px rgba(19, 89, 163, 0.06);
-    transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+    box-shadow:
+        0 8px 32px rgba(0,0,0,0.35),
+        0 1px 0 rgba(255,255,255,0.12) inset;
+    transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+    position: relative;
+    backdrop-filter: blur(4px);
+}
+
+/* HOT badge */
+.badge-hot {
+    position: absolute;
+    top: -9px;
+    right: 14px;
+    background: linear-gradient(135deg, #FF4D2E 0%, #FF8C00 100%);
+    color: #fff;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 800;
+    font-size: 10px;
+    letter-spacing: .08em;
+    padding: 3px 9px;
+    border-radius: 999px;
+    box-shadow: 0 3px 10px rgba(255, 77, 46, 0.45);
+    animation: hotPulse 2s ease-in-out infinite;
+    pointer-events: none;
+    user-select: none;
+}
+
+@keyframes hotPulse {
+    0%, 100% { box-shadow: 0 3px 10px rgba(255, 77, 46, 0.45); }
+    50%       { box-shadow: 0 3px 16px rgba(255, 77, 46, 0.75); }
 }
 
 .card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 12px 28px rgba(19, 89, 163, 0.14);
-    border-color: var(--blue-100);
+    transform: translateY(-4px);
+    box-shadow:
+        0 16px 44px rgba(0,0,0,0.45),
+        0 0 0 1.5px rgba(46,125,209,0.4);
+    border-color: rgba(46,125,209,0.5);
 }
 
 .thumb {
