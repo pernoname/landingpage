@@ -433,6 +433,64 @@ h1 {
     text-align: center;
 }
 
+/* Tips notice (chú ý) */
+.tips-notice {
+    margin-top: 18px;
+    padding: 14px 16px;
+    background: rgba(255, 200, 50, 0.08);
+    border: 1px solid rgba(255, 200, 50, 0.35);
+    border-radius: 14px;
+    position: relative;
+}
+
+.tips-notice-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.tips-notice-icon {
+    font-size: 16px;
+    line-height: 1;
+    flex: 0 0 auto;
+}
+
+.tips-notice-label {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 700;
+    font-size: 11.5px;
+    letter-spacing: .06em;
+    color: #FFD966;
+    text-transform: uppercase;
+}
+
+.tips-notice-text {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.82);
+    line-height: 1.65;
+}
+
+.tips-notice-text strong {
+    color: #FFD966;
+    font-weight: 600;
+}
+
+.tips-notice-success {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 13.5px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 600;
+    color: #6EE7B7;
+    background: rgba(110, 231, 183, 0.1);
+    border: 1px solid rgba(110, 231, 183, 0.25);
+    border-radius: 10px;
+    padding: 9px 13px;
+}
+
 footer {
     margin-top: 48px;
     font-size: 12.5px;
