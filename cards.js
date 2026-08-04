@@ -73,6 +73,21 @@ const CARDS = [
         ]
     },
     {
+        title: "LetoCredit",
+        link: "https://go.clickbuy.asia/click?a=75547&o=1435",
+        image: "./img/letocredit.png",
+        badge: "🔥 HOT",
+        subs: [
+            "✅ APP MỚI (DỄ DUYỆT AE NÊN THỬ).",
+            "💸 Giải ngân nhanh chóng.",
+            "🎁 Lãi suất chỉ từ 0,01%.",
+            "💰 Vay đầu tiên lên tới 5 triệu.",
+            "🪪 Chỉ cần CCCD là có thể vay.",
+            "🧑 Tuổi 18 - 60.",
+            "⚡ Duyệt sau 15 phút."
+        ]
+    },
+    {
         title: "Moneyveo",
         link: "https://go.dinos.click/click?a=75547&o=663",
         image: "./img/moneyveo.png",
