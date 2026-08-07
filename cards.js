@@ -6,18 +6,20 @@
  *  Không cần chỉnh sửa index.html hay style.css.
  *
  *  Mỗi card có các trường:
+ *    order  : Số thứ tự hiển thị (nhỏ hơn = lên trên)
  *    title  : Tên app hiển thị
  *    link   : Đường link khi bấm vào card
  *    image  : Đường dẫn ảnh icon (trong thư mục ./img/)
  *    badge  : Nhãn HOT (để "" nếu không muốn hiện)
  *    subs   : Mảng các dòng mô tả (có thể dùng emoji ở đầu)
  *
- *  Thứ tự trong mảng CARDS = thứ tự hiển thị trên trang.
+ *  Thứ tự hiển thị được xác định bởi trường ORDER (tăng dần).
  * ============================================================
  */
 
 const CARDS = [
     {
+        order: 2,
         title: "Creditnice",
         link: "https://go.dinos.click/click?a=75547&o=990",
         image: "./img/creditnice.png",
@@ -33,6 +35,7 @@ const CARDS = [
         ]
     },
     {
+        order: 4,
         title: "Crezu",
         link: "https://go.dinos.click/click?a=75547&o=125",
         image: "./img/crezu.png",
@@ -47,6 +50,7 @@ const CARDS = [
         ]
     },
     {
+        order: 5,
         title: "Jeff App",
         link: "https://go.dinos.click/click?a=75547&o=161",
         image: "./img/jeff.png",
@@ -60,6 +64,7 @@ const CARDS = [
         ]
     },
     {
+        order: 1,
         title: "Vaymeo",
         link: "https://go.dinos.click/click?a=75547&o=1185",
         image: "./img/vaymeo.png",
@@ -73,6 +78,7 @@ const CARDS = [
         ]
     },
     {
+        order: 3,
         title: "LetoCredit",
         link: "https://go.clickbuy.asia/click?a=75547&o=1435",
         image: "./img/letocredit.png",
@@ -88,6 +94,7 @@ const CARDS = [
         ]
     },
     {
+        order: 6,
         title: "Moneyveo",
         link: "https://go.dinos.click/click?a=75547&o=663",
         image: "./img/moneyveo.png",
@@ -103,6 +110,7 @@ const CARDS = [
         ]
     },
     {
+        order: 7,
         title: "VAYVND",
         link: "https://go.dinos.click/click?a=75547&o=927",
         image: "./img/vayvnd.png",
@@ -130,7 +138,7 @@ const CARDS = [
         <path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>`;
 
-    list.innerHTML = CARDS.map(card => {
+    list.innerHTML = [...CARDS].sort((a, b) => (a.order ?? 0) - (b.order ?? 0)).map(card => {
         const badge = card.badge
             ? `<span class="badge-hot">${card.badge}</span>`
             : '';
