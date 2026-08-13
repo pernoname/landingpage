@@ -35,7 +35,7 @@ const CARDS = [
         ]
     },
     {
-        order: 4,
+        order: 5,
         title: "Crezu",
         link: "https://go.dinos.click/click?a=75547&o=125",
         image: "./img/crezu.png",
@@ -78,7 +78,7 @@ const CARDS = [
         ]
     },
     {
-        order: 3,
+        order: 4,
         title: "LetoCredit",
         link: "https://go.clickbuy.asia/click?a=75547&o=1435",
         image: "./img/letocredit.png",
@@ -94,7 +94,7 @@ const CARDS = [
         ]
     },
     {
-        order: 6,
+        order: 7,
         title: "Moneyveo",
         link: "https://go.dinos.click/click?a=75547&o=663",
         image: "./img/moneyveo.png",
@@ -110,7 +110,7 @@ const CARDS = [
         ]
     },
     {
-        order: 7,
+        order: 8,
         title: "VAYVND",
         link: "https://go.dinos.click/click?a=75547&o=927",
         image: "./img/vayvnd.png",
@@ -123,6 +123,20 @@ const CARDS = [
             "🪪 Chỉ cần CCCD là có thể vay.",
             "🧑 Tuổi 22 - 60.",
             "⚡ Duyệt sau 5 phút, tỉ lệ 99%."
+        ]
+    },
+    {
+        order: 3,
+        title: "TINVAY (THUÊ BAO VIETTEL)",
+        link: "https://go.dinos.click/click?a=75547&o=769",
+        image: "./img/tinvay.png",
+        badge: "🔥 HOT",
+        subs: [
+            "✅ ƯU TIÊN (APP MỚI DUYỆT NHANH).",
+            "💰 Vay đầu tiên 1 - 25 triệu.",
+            "🧑 Tuổi 18 - 60.",
+            "🆗 Hỗ trợ nợ xấu.",
+            "⚡ Tỉ lệ duyệt 99%."
         ]
     }
 ];
