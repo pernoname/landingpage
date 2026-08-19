@@ -19,7 +19,7 @@
 
 const CARDS = [
     {
-        order: 2,
+        order: 3,
         title: "Creditnice",
         link: "https://go.dinos.click/click?a=75547&o=990",
         image: "./img/creditnice.png",
@@ -35,11 +35,11 @@ const CARDS = [
         ]
     },
     {
-        order: 5,
+        order: 6,
         title: "Crezu",
         link: "https://go.dinos.click/click?a=75547&o=125",
         image: "./img/crezu.png",
-        badge: "🔥 HOT",
+        badge: "",
         subs: [
             "✅ ƯU TIÊN",
             "🔰 App trung gian uy tín",
@@ -50,11 +50,11 @@ const CARDS = [
         ]
     },
     {
-        order: 5,
+        order: 7,
         title: "Jeff App",
         link: "https://go.dinos.click/click?a=75547&o=161",
         image: "./img/jeff.png",
-        badge: "🔥 HOT",
+        badge: "",
         subs: [
             "🏆 ƯU TIÊN HÀNG ĐẦU - Chỉ cần CCCD",
             "🔰 App trung gian uy tín nhất hiện nay.",
@@ -64,7 +64,7 @@ const CARDS = [
         ]
     },
     {
-        order: 1,
+        order: 5,
         title: "Vaymeo",
         link: "https://go.dinos.click/click?a=75547&o=1185",
         image: "./img/vaymeo.png",
@@ -94,7 +94,7 @@ const CARDS = [
         ]
     },
     {
-        order: 7,
+        order: 8,
         title: "Moneyveo",
         link: "https://go.dinos.click/click?a=75547&o=663",
         image: "./img/moneyveo.png",
@@ -110,11 +110,11 @@ const CARDS = [
         ]
     },
     {
-        order: 8,
-        title: "VAYVND",
+        order: 2,
+        title: "VAYVND (TỈ LỆ DUYỆT CAO)",
         link: "https://go.dinos.click/click?a=75547&o=927",
         image: "./img/vayvnd.png",
-        badge: "",
+        badge: "🔥 HOT",
         subs: [
             "✅ ƯU TIÊN.",
             "💸 Giải ngân luôn, khỏi phải đợi.",
@@ -126,7 +126,7 @@ const CARDS = [
         ]
     },
     {
-        order: 3,
+        order: 1,
         title: "TINVAY (THUÊ BAO VIETTEL)",
         link: "https://go.dinos.click/click?a=75547&o=769",
         image: "./img/tinvay.png",
