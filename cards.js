@@ -127,7 +127,7 @@ const CARDS = [
     },
     {
         order: 1,
-        title: "TINVAY (THUÊ BAO VIETTEL)",
+        title: "TINVAY (THUÊ BAO VIETTEL)(APP HOT TỶ LỆ DUYỆT CAO)",
         link: "https://go.dinos.click/click?a=75547&o=769",
         image: "./img/tinvay.png",
         badge: "🔥 HOT",
@@ -136,6 +136,20 @@ const CARDS = [
             "💰 Vay đầu tiên 1 - 25 triệu.",
             "🧑 Tuổi 18 - 60.",
             "🆗 Hỗ trợ nợ xấu.",
+            "⚡ Tỉ lệ duyệt 99%."
+        ]
+    },
+    {
+        order: 9,
+        title: "VAYXANH",
+        link: "https://go.clickbuy.asia/click?a=75547&o=1440",
+        image: "./img/vayxanh.png",
+        badge: "",
+        subs: [
+            "✅ ƯU TIÊN (APP MỚI DUYỆT NHANH).",
+            "💰 Vay đầu tiên 500K - 15 triệu.",
+            "🪪 Chỉ cần CCCD là có thể vay.",
+            "🧑 Tuổi 22 - 65.",
             "⚡ Tỉ lệ duyệt 99%."
         ]
     }
