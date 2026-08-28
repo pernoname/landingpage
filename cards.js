@@ -112,7 +112,7 @@ const CARDS = [
     {
         order: 2,
         title: "VAYVND (TỈ LỆ DUYỆT CAO)",
-        link: "https://go.dinos.click/click?a=75547&o=927",
+        link: "https://go.dinos.click/click?a=75547&o=277",
         image: "./img/vayvnd.png",
         badge: "🔥 HOT",
         subs: [
