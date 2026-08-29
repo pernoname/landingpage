@@ -152,6 +152,21 @@ const CARDS = [
             "🧑 Tuổi 22 - 65.",
             "⚡ Tỉ lệ duyệt 99%."
         ]
+    },
+    {
+        order: 10,
+        title: "MoneyCat",
+        link: "https://go.dinos.click/click?a=75547&o=762",
+        image: "./img/moneycat.png",
+        badge: "",
+        subs: [
+            "✅ ƯU TIÊN.",
+            "💰 Vay đầu tiên 500K - 10 triệu.",
+            "🪪 Chỉ cần CCCD là có thể vay.",
+            "🆗 Nhận hỗ trợ nợ xấu.",
+            "🧑 Tuổi 22 - 60.",
+            "⚡ Tỉ lệ duyệt 99%."
+        ]
     }
 ];
 
