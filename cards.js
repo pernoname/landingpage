@@ -19,7 +19,7 @@
 
 const CARDS = [
     {
-        order: 3,
+        order: 4,
         title: "Creditnice",
         link: "https://go.dinos.click/click?a=75547&o=990",
         image: "./img/creditnice.png",
@@ -35,7 +35,7 @@ const CARDS = [
         ]
     },
     {
-        order: 6,
+        order: 7,
         title: "Crezu",
         link: "https://go.dinos.click/click?a=75547&o=125",
         image: "./img/crezu.png",
@@ -50,7 +50,7 @@ const CARDS = [
         ]
     },
     {
-        order: 7,
+        order: 8,
         title: "Jeff App",
         link: "https://go.dinos.click/click?a=75547&o=161",
         image: "./img/jeff.png",
@@ -64,11 +64,11 @@ const CARDS = [
         ]
     },
     {
-        order: 5,
+        order: 6,
         title: "Vaymeo",
         link: "https://go.dinos.click/click?a=75547&o=1185",
         image: "./img/vaymeo.png",
-        badge: "🔥 HOT",
+        badge: "",
         subs: [
             "✅ NÊN VAY — Chỉ cần CCCD.",
             "💰 Hạn mức: 1 - 10 triệu.",
@@ -78,7 +78,7 @@ const CARDS = [
         ]
     },
     {
-        order: 4,
+        order: 5,
         title: "LetoCredit",
         link: "https://go.clickbuy.asia/click?a=75547&o=1435",
         image: "./img/letocredit.png",
@@ -94,7 +94,7 @@ const CARDS = [
         ]
     },
     {
-        order: 8,
+        order: 9,
         title: "Moneyveo",
         link: "https://go.dinos.click/click?a=75547&o=663",
         image: "./img/moneyveo.png",
@@ -140,7 +140,7 @@ const CARDS = [
         ]
     },
     {
-        order: 9,
+        order: 10,
         title: "VAYXANH",
         link: "https://go.clickbuy.asia/click?a=75547&o=1440",
         image: "./img/vayxanh.png",
@@ -154,11 +154,11 @@ const CARDS = [
         ]
     },
     {
-        order: 10,
-        title: "MoneyCat",
+        order: 3,
+        title: "MoneyCat (TỈ LỆ DUYỆT CAO)",
         link: "https://go.dinos.click/click?a=75547&o=762",
         image: "./img/moneycat.png",
-        badge: "",
+        badge: "🔥 HOT",
         subs: [
             "✅ ƯU TIÊN.",
             "💰 Vay đầu tiên 500K - 10 triệu.",
