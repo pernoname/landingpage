@@ -141,20 +141,19 @@ body>* {
     backdrop-filter: blur(6px);
 }
 
-.eyebrow .dot {
+.dot {
     width: 7px;
     height: 7px;
     border-radius: 50%;
     background: var(--blue-500);
 }
 
-h1 {
+h3 {
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 800;
-    font-size: clamp(28px, 5vw, 40px);
-    line-height: 1.2;
+    font-size: clamp(22px, 5vw, 28px);
     color: #fff;
-    max-width: 520px;
+    line-height: 1.5;
     text-shadow: 0 2px 24px rgba(46, 125, 209, 0.25);
 }
 
@@ -513,6 +512,46 @@ h1 {
     border: 1px solid rgba(110, 231, 183, 0.25);
     border-radius: 10px;
     padding: 9px 13px;
+}
+
+/* ── Section divider (Thẻ tín dụng / Vay tài chính) ── */
+.section-divider {
+    width: 100%;
+    margin-top: 32px;
+    text-align: center;
+}
+
+.section-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    background: rgba(46, 125, 209, 0.18);
+    border: 1px solid rgba(99, 60, 210, 0.38);
+    border-radius: 999px;
+    padding: 8px 18px 8px 10px;
+    backdrop-filter: blur(6px);
+}
+
+.section-label-icon {
+    font-size: 18px;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+}
+
+.section-label span:last-child {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 800;
+    font-size: 13px;
+    letter-spacing: .05em;
+    color: #7EC8F8;
+}
+
+.section-label-sub {
+    margin-top: 10px;
+    font-size: 13.5px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 1.5;
 }
 
 footer {

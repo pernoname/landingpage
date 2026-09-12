@@ -19,11 +19,11 @@
 
 const CARDS = [
     {
-        order: 3,
+        order: 7,
         title: "Creditnice",
         link: "https://go.dinos.click/click?a=75547&o=990",
         image: "./img/creditnice.png",
-        badge: "🔥 HOT",
+        badge: "",
         subs: [
             "✅ VỪA HIỀN, DUYỆT NHANH",
             "💰 Hạn mức: 800 - 10 triệu",
@@ -35,7 +35,7 @@ const CARDS = [
         ]
     },
     {
-        order: 6,
+        order: 8,
         title: "Crezu",
         link: "https://go.dinos.click/click?a=75547&o=125",
         image: "./img/crezu.png",
@@ -50,7 +50,7 @@ const CARDS = [
         ]
     },
     {
-        order: 7,
+        order: 10,
         title: "Jeff App",
         link: "https://go.dinos.click/click?a=75547&o=161",
         image: "./img/jeff.png",
@@ -64,7 +64,7 @@ const CARDS = [
         ]
     },
     {
-        order: 5,
+        order: 6,
         title: "Vaymeo",
         link: "https://go.dinos.click/click?a=75547&o=1185",
         image: "./img/vaymeo.png",
@@ -78,7 +78,7 @@ const CARDS = [
         ]
     },
     {
-        order: 4,
+        order: 5,
         title: "LetoCredit",
         link: "https://go.clickbuy.asia/click?a=75547&o=1435",
         image: "./img/letocredit.png",
@@ -94,11 +94,11 @@ const CARDS = [
         ]
     },
     {
-        order: 8,
-        title: "Moneyveo",
+        order: 4,
+        title: "Moneyveo (TỶ LỆ DUYỆT CAO)",
         link: "https://go.dinos.click/click?a=75547&o=663",
         image: "./img/moneyveo.png",
-        badge: "",
+        badge: "🔥 HOT",
         subs: [
             "✅ ƯU TIÊN.",
             "🎁 Lãi suất 0% khoản vay đầu.",
@@ -154,11 +154,11 @@ const CARDS = [
         ]
     },
     {
-        order: 10,
-        title: "MoneyCat",
+        order: 3,
+        title: "MoneyCat (TỶ LỆ DUYỆT CAO)",
         link: "https://go.dinos.click/click?a=75547&o=762",
         image: "./img/moneycat.png",
-        badge: "",
+        badge: "🔥 HOT",
         subs: [
             "✅ ƯU TIÊN.",
             "💰 Vay đầu tiên 500K - 10 triệu.",
@@ -171,8 +171,57 @@ const CARDS = [
 ];
 
 // ============================================================
-//  Render tự động — KHÔNG CẦN CHỈNH SỬA PHẦN DƯỚI
+//  Dữ liệu thẻ tín dụng & vay công ty tài chính
+//  Thêm app mới vào đây theo cùng cấu trúc như CARDS
 // ============================================================
+const CREDIT_CARDS = [
+    {
+        order: 1,
+        title: "THẺ TÍN DỤNG VPBANK",
+        link: "https://go.clickbuy.asia/click?a=75547&o=1174",
+        image: "./img/vpbank.png",
+        badge: "🔥 HOT",
+        subs: [
+            "🎁 Lãi suất lần đầu 0%.",
+            "💰 Hạn mức lên đến 100 triệu.",
+            "🧑 Tuổi 22 - 60.",
+            "🪪 Chỉ cần CCCD + Selfie là xong.",
+            "⚡ Tỷ lệ duyệt 85%.",
+            "🆗 KHÔNG HỖ TRỢ NỢ XẤU.",
+        ]
+    },
+];
+
+// ============================================================
+//  Render thẻ tín dụng — KHÔNG CẦN CHỈNH SỬA PHẦN DƯỚI
+// ============================================================
+(function renderCreditCards() {
+    const list = document.getElementById('credit-list');
+    if (!list) return;
+
+    const chevronSVG = `<svg class="chevron" width="20" height="20" viewBox="0 0 24 24" fill="none">
+        <path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>`;
+
+    list.innerHTML = [...CREDIT_CARDS].sort((a, b) => (a.order ?? 0) - (b.order ?? 0)).map(card => {
+        const badge = card.badge
+            ? `<span class="badge-hot">${card.badge}</span>`
+            : '';
+        const subs = card.subs
+            .map(s => `<span class="card-sub">${s}</span>`)
+            .join('\n                    ');
+        return `
+            <a class="card" href="${card.link}" target="_blank" rel="noopener">
+                ${badge}
+                <span class="thumb"><img src="${card.image}" alt="${card.title}"></span>
+                <span class="card-title">${card.title}
+                    ${subs}
+                </span>
+                ${chevronSVG}
+            </a>`;
+    }).join('\n');
+})();
+
 (function renderCards() {
     const list = document.getElementById('card-list');
     if (!list) return;
