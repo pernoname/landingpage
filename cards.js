@@ -65,10 +65,11 @@ const CARDS = [
     },
     {
         order: 6,
+        order: 6,
         title: "Vaymeo",
         link: "https://go.dinos.click/click?a=75547&o=1185",
         image: "./img/vaymeo.png",
-        badge: "🔥 HOT",
+        badge: "",
         subs: [
             "✅ NÊN VAY — Chỉ cần CCCD.",
             "💰 Hạn mức: 1 - 10 triệu.",
@@ -78,6 +79,7 @@ const CARDS = [
         ]
     },
     {
+        order: 5,
         order: 5,
         title: "LetoCredit",
         link: "https://go.clickbuy.asia/click?a=75547&o=1435",
@@ -140,7 +142,7 @@ const CARDS = [
         ]
     },
     {
-        order: 9,
+        order: 10,
         title: "VAYXANH",
         link: "https://go.clickbuy.asia/click?a=75547&o=1440",
         image: "./img/vayxanh.png",
@@ -158,6 +160,7 @@ const CARDS = [
         title: "MoneyCat (TỶ LỆ DUYỆT CAO)",
         link: "https://go.dinos.click/click?a=75547&o=762",
         image: "./img/moneycat.png",
+        badge: "🔥 HOT",
         badge: "🔥 HOT",
         subs: [
             "✅ ƯU TIÊN.",
