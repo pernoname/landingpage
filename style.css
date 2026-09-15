@@ -560,6 +560,11 @@ footer {
     color: var(--muted);
 }
 
+strong {
+    color: #FFD966;
+    font-weight: 600;
+}
+
 @media (max-width:480px) {
     .contact-grid {
         grid-template-columns: 1fr;
