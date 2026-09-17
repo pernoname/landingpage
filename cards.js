@@ -181,6 +181,20 @@ const CREDIT_CARDS = [
     },
     {
         order: 2,
+        title: "VAY TÍN CHẤP SFinance ",
+        link: "https://go.clickbuy.asia/click?a=75547&o=1313",
+        image: "./img/sfinance.png",
+        badge: "🔥 HOT",
+        subs: [
+            "🎁 Lãi suất từ 1.37%/tháng.",
+            "💰 Hạn mức 10 - 100 triệu.",
+            "🧑 Tuổi 20 - 59.",
+            "⚡ Tỷ lệ duyệt 90% (duyệt trong ngày).",
+            "🆗 KHÔNG HỖ TRỢ NỢ XẤU.",
+        ]
+    },
+    {
+        order: 3,
         title: "VAYXANH",
         link: "https://go.clickbuy.asia/click?a=75547&o=1440",
         image: "./img/vayxanh.png",
