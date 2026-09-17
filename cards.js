@@ -31,7 +31,8 @@ const CARDS = [
             "🎁 Lãi suất: 0% lần đầu.",
             "🧑 Tuổi 18 - 60.",
             "⚡ Duyệt sau 15 phút.",
-            "📝 Điền thông tin là xong."
+            "📝 Điền thông tin là xong.",
+            "🆗 HỖ TRỢ NỢ XẤU.",
         ]
     },
     {
@@ -41,30 +42,29 @@ const CARDS = [
         image: "./img/crezu.png",
         badge: "",
         subs: [
-            "✅ ƯU TIÊN",
             "🔰 App trung gian uy tín",
             "💡 Chọn đơn vị vay gợi ý giúp tăng khả năng duyệt hơn đki trực tiếp.",
             "🪪 Chỉ cần CCCD là có thể vay.",
             "🧑 Tuổi: 18 - 60.",
-            "⚡ Duyệt ngay sau 5 phút."
+            "⚡ Duyệt ngay sau 5 phút.",
+            "🆗 HỖ TRỢ NỢ XẤU."
         ]
     },
+    // {
+    //     order: 10,
+    //     title: "Jeff App",
+    //     link: "https://go.dinos.click/click?a=75547&o=161",
+    //     image: "./img/jeff.png",
+    //     badge: "",
+    //     subs: [
+    //         "🏆 ƯU TIÊN HÀNG ĐẦU - Chỉ cần CCCD",
+    //         "🔰 App trung gian uy tín nhất hiện nay.",
+    //         "💸 Lãi suất khoản vay đầu tiên thấp.",
+    //         "🆗 Tuổi 22 trở lên, nhận nợ xấu.",
+    //         "⚡ Duyệt sau 5 phút, tỉ lệ 99%."
+    //     ]
+    // },
     {
-        order: 10,
-        title: "Jeff App",
-        link: "https://go.dinos.click/click?a=75547&o=161",
-        image: "./img/jeff.png",
-        badge: "",
-        subs: [
-            "🏆 ƯU TIÊN HÀNG ĐẦU - Chỉ cần CCCD",
-            "🔰 App trung gian uy tín nhất hiện nay.",
-            "💸 Lãi suất khoản vay đầu tiên thấp.",
-            "🆗 Tuổi 22 trở lên, nhận nợ xấu.",
-            "⚡ Duyệt sau 5 phút, tỉ lệ 99%."
-        ]
-    },
-    {
-        order: 6,
         order: 6,
         title: "Vaymeo",
         link: "https://go.dinos.click/click?a=75547&o=1185",
@@ -75,11 +75,11 @@ const CARDS = [
             "💰 Hạn mức: 1 - 10 triệu.",
             "📅 Kỳ hạn: 91 - 180 ngày.",
             "📊 Lãi suất từ 0,01%.",
-            "🧑 Tuổi 22 - 60."
+            "🧑 Tuổi 22 - 60.",
+            "🆗 HỖ TRỢ NỢ XẤU.",
         ]
     },
     {
-        order: 5,
         order: 5,
         title: "LetoCredit",
         link: "https://go.clickbuy.asia/click?a=75547&o=1435",
@@ -92,39 +92,39 @@ const CARDS = [
             "💰 Vay đầu tiên lên tới 5 triệu.",
             "🪪 Chỉ cần CCCD là có thể vay.",
             "🧑 Tuổi 18 - 60.",
-            "⚡ Duyệt sau 15 phút."
+            "⚡ Duyệt sau 15 phút.",
+            "🆗 HỖ TRỢ NỢ XẤU.",
         ]
     },
     {
-        order: 3,
-        title: "Moneyveo (TỶ LỆ DUYỆT CAO)",
+        order: 2,
+        title: "Moneyveo (TỶ LỆ DUYỆT CAO CỰC CAO)",
         link: "https://go.dinos.click/click?a=75547&o=663",
         image: "./img/moneyveo.png",
-        badge: "🔥 HOT",
+        badge: "🔥SIÊU HOT",
         subs: [
-            "✅ ƯU TIÊN.",
             "🎁 Lãi suất 0% khoản vay đầu.",
             "⚡ Vay đầu tiên 5 - 10 triệu trong 5 phút.",
             "🪪 Chỉ cần CCCD là có thể vay.",
             "🧑 Tuổi 18 - 60.",
             "🆕 App mới dễ duyệt ae nên thử.",
-            "📸 Lưu ý chụp ảnh rõ nét."
+            "🆗 HỖ TRỢ NỢ XẤU."
         ]
     },
     {
-        order: 4,
+        order: 3,
         title: "VAYVND (TỈ LỆ DUYỆT CAO)",
         link: "https://go.dinos.click/click?a=75547&o=927",
         image: "./img/vayvnd.png",
         badge: "🔥 HOT",
         subs: [
-            "✅ ƯU TIÊN.",
             "💸 Giải ngân luôn, khỏi phải đợi.",
             "🎁 Lãi suất 0% khoản vay đầu.",
             "💰 Vay đầu tiên 1 - 10 triệu.",
             "🪪 Chỉ cần CCCD là có thể vay.",
             "🧑 Tuổi 22 - 60.",
-            "⚡ Duyệt sau 5 phút, tỉ lệ 99%."
+            "⚡ Duyệt sau 5 phút, tỉ lệ 99%.",
+            "🆗 HỖ TRỢ NỢ XẤU.",
         ]
     },
     // {
@@ -142,19 +142,31 @@ const CARDS = [
     //     ]
     // },
     {
-        order: 2,
+        order: 1,
         title: "MoneyCat (APP HOT TỶ LỆ DUYỆT CỰC CAO)",
         link: "https://go.dinos.click/click?a=75547&o=762",
         image: "./img/moneycat.png",
-        badge: "🔥 HOT",
-        badge: "🔥 HOT",
+        badge: "🔥SIÊU HOT",
         subs: [
-            "✅ ƯU TIÊN.",
             "💰 Vay đầu tiên 500K - 10 triệu.",
             "🪪 Chỉ cần CCCD là có thể vay.",
-            "🆗 Nhận hỗ trợ nợ xấu.",
             "🧑 Tuổi 22 - 60.",
-            "⚡ Tỉ lệ duyệt 99%."
+            "⚡ Tỉ lệ duyệt 99%.",
+            "🆗 HỖ TRỢ NỢ XẤU.",
+        ]
+    },
+    {
+        order: 4,
+        title: "Dong247 (NGƯỜI MỚI XÉT DUYỆT NHANH)",
+        link: "https://go.dinos.click/click?a=75547&o=302",
+        image: "./img/dong247.png",
+        badge: "🔥 HOT",
+        subs: [
+            "💰 Vay đầu 5 triệu.",
+            "🪪 Chỉ cần CCCD là có thể vay.",
+            "🧑 Tuổi 20 - 60.",
+            "⚡ Tỉ lệ duyệt 99%.",
+            "🆗 HỖ TRỢ NỢ XẤU.",
         ]
     }
 ];
@@ -193,20 +205,20 @@ const CREDIT_CARDS = [
             "🆗 KHÔNG HỖ TRỢ NỢ XẤU.",
         ]
     },
-    {
-        order: 3,
-        title: "VAYXANH",
-        link: "https://go.clickbuy.asia/click?a=75547&o=1440",
-        image: "./img/vayxanh.png",
-        badge: "",
-        subs: [
-            "✅ ƯU TIÊN (APP MỚI DUYỆT NHANH).",
-            "💰 Vay đầu tiên 500K - 15 triệu.",
-            "🪪 Chỉ cần CCCD là có thể vay.",
-            "🧑 Tuổi 18 - 65.",
-            "⚡ Tỉ lệ duyệt 99%."
-        ]
-    },
+    // {
+    //     order: 3,
+    //     title: "VAYXANH",
+    //     link: "https://go.clickbuy.asia/click?a=75547&o=1440",
+    //     image: "./img/vayxanh.png",
+    //     badge: "",
+    //     subs: [
+    //         "✅ ƯU TIÊN (APP MỚI DUYỆT NHANH).",
+    //         "💰 Vay đầu tiên 500K - 15 triệu.",
+    //         "🪪 Chỉ cần CCCD là có thể vay.",
+    //         "🧑 Tuổi 18 - 65.",
+    //         "⚡ Tỉ lệ duyệt 99%."
+    //     ]
+    // },
 ];
 
 // ============================================================
@@ -221,14 +233,17 @@ const CREDIT_CARDS = [
     </svg>`;
 
     list.innerHTML = [...CREDIT_CARDS].sort((a, b) => (a.order ?? 0) - (b.order ?? 0)).map(card => {
+        const isSuperHot = card.badge && card.badge.includes('SIÊU HOT');
+        const badgeClass = isSuperHot ? 'badge-super-hot' : 'badge-hot';
+        const cardClass = isSuperHot ? 'card card--super-hot' : 'card';
         const badge = card.badge
-            ? `<span class="badge-hot">${card.badge}</span>`
+            ? `<span class="${badgeClass}">${card.badge}</span>`
             : '';
         const subs = card.subs
             .map(s => `<span class="card-sub">${s}</span>`)
             .join('\n                    ');
         return `
-            <a class="card" href="${card.link}" target="_blank" rel="noopener">
+            <a class="${cardClass}" href="${card.link}" target="_blank" rel="noopener">
                 ${badge}
                 <span class="thumb"><img src="${card.image}" alt="${card.title}"></span>
                 <span class="card-title">${card.title}
@@ -248,14 +263,17 @@ const CREDIT_CARDS = [
     </svg>`;
 
     list.innerHTML = [...CARDS].sort((a, b) => (a.order ?? 0) - (b.order ?? 0)).map(card => {
+        const isSuperHot = card.badge && card.badge.includes('SIÊU HOT');
+        const badgeClass = isSuperHot ? 'badge-super-hot' : 'badge-hot';
+        const cardClass = isSuperHot ? 'card card--super-hot' : 'card';
         const badge = card.badge
-            ? `<span class="badge-hot">${card.badge}</span>`
+            ? `<span class="${badgeClass}">${card.badge}</span>`
             : '';
         const subs = card.subs
             .map(s => `<span class="card-sub">${s}</span>`)
             .join('\n                    ');
         return `
-            <a class="card" href="${card.link}" target="_blank" rel="noopener">
+            <a class="${cardClass}" href="${card.link}" target="_blank" rel="noopener">
                 ${badge}
                 <span class="thumb"><img src="${card.image}" alt="${card.title}"></span>
                 <span class="card-title">${card.title}
