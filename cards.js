@@ -36,6 +36,23 @@ const CARDS = [
         ]
     },
     {
+        order: 3,
+        title: "Finpug (APP MỚI CHẠY KPI NÊN RẤT DỄ DUYỆT)",
+        link: "https://ads.clickbuy.asia/click?a=75547&o=1257",
+        image: "./img/finpug.png",
+        badge: "🔥SIÊU HOT",
+        subs: [
+            "✅ APP trung gian (RẤT HIỀN)",
+            "💰 Hạn mức: 250K - 20 triệu",
+            "📅 Kỳ hạn: Linh hoạt.",
+            "🎁 Lãi suất: 0% lần đầu.",
+            "🧑 Tuổi 18 - 60.",
+            "⚡ Auto duyệt sau 15 - 30 phút.",
+            "📝 Điền thông tin là xong.",
+            "🆗 HỖ TRỢ NỢ XẤU.",
+        ]
+    },
+    {
         order: 8,
         title: "Crezu",
         link: "https://go.dinos.click/click?a=75547&o=125",
@@ -176,21 +193,21 @@ const CARDS = [
 //  Thêm app mới vào đây theo cùng cấu trúc như CARDS
 // ============================================================
 const CREDIT_CARDS = [
-    {
-        order: 1,
-        title: "THẺ TÍN DỤNG VPBANK",
-        link: "https://go.clickbuy.asia/click?a=75547&o=1174",
-        image: "./img/vpbank.png",
-        badge: "🔥 HOT",
-        subs: [
-            "🎁 Lãi suất lần đầu 0%.",
-            "💰 Hạn mức lên đến 100 triệu.",
-            "🧑 Tuổi 22 - 60.",
-            "🪪 Chỉ cần CCCD + Selfie là xong.",
-            "⚡ Tỷ lệ duyệt 85%.",
-            "🆗 KHÔNG HỖ TRỢ NỢ XẤU.",
-        ]
-    },
+    // {
+    //     order: 1,
+    //     title: "THẺ TÍN DỤNG VPBANK",
+    //     link: "https://go.clickbuy.asia/click?a=75547&o=1174",
+    //     image: "./img/vpbank.png",
+    //     badge: "🔥 HOT",
+    //     subs: [
+    //         "🎁 Lãi suất lần đầu 0%.",
+    //         "💰 Hạn mức lên đến 100 triệu.",
+    //         "🧑 Tuổi 22 - 60.",
+    //         "🪪 Chỉ cần CCCD + Selfie là xong.",
+    //         "⚡ Tỷ lệ duyệt 85%.",
+    //         "🆗 KHÔNG HỖ TRỢ NỢ XẤU.",
+    //     ]
+    // },
     {
         order: 2,
         title: "VAY TÍN CHẤP SFinance ",
