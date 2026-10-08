@@ -144,20 +144,20 @@ const CARDS = [
             "🆗 HỖ TRỢ NỢ XẤU.",
         ]
     },
-    // {
-    //     order: 1,
-    //     title: "TINVAY (THUÊ BAO VIETTEL)(APP HOT TỶ LỆ DUYỆT CAO)",
-    //     link: "https://go.dinos.click/click?a=75547&o=769",
-    //     image: "./img/tinvay.png",
-    //     badge: "🔥 HOT",
-    //     subs: [
-    //         "✅ ƯU TIÊN (APP MỚI DUYỆT NHANH).",
-    //         "💰 Vay đầu tiên 1 - 25 triệu.",
-    //         "🧑 Tuổi 18 - 60.",
-    //         "🆗 Hỗ trợ nợ xấu.",
-    //         "⚡ Tỉ lệ duyệt 99%."
-    //     ]
-    // },
+    {
+        order: 4,
+        title: "TINVAY (APP HOT TỶ LỆ DUYỆT CAO)",
+        link: "https://shorten.asia/HAnPhX3g",
+        image: "./img/tinvay1.png",
+        badge: "🔥 HOT",
+        subs: [
+            "✅ ƯU TIÊN (APP MỚI DUYỆT NHANH).",
+            "💰 Vay đầu tiên 1 - 25 triệu.",
+            "🧑 Tuổi 18 - 60.",
+            "🆗 Hỗ trợ nợ xấu.",
+            "⚡ Tỉ lệ duyệt 99%."
+        ]
+    },
     {
         order: 1,
         title: "MoneyCat (APP HOT TỶ LỆ DUYỆT CỰC CAO)",
