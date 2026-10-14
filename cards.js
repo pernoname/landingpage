@@ -209,6 +209,22 @@ const CREDIT_CARDS = [
     //     ]
     // },
     {
+        order: 1,
+        title: "FE Credit",
+        link: "https://shorten.asia/jsNWgj1H",
+        image: "./img/fe-credit.jpg",
+        badge: "🔥 HOT",
+        subs: [
+            "✅ ƯU TIÊN khách hàng cũ sẽ được giải ngân cao hơn.",
+            "💰 Có thu nhập trên 4M/tháng.",
+            "💰 Khoản vay từ 10 - 70 triệu.",
+            "📅 Kỳ hạn: 6 - 36 tháng",
+            "🧑 Tuổi từ 20 trở lên",
+            "📞 Chú ý nghe điện thoại.",
+            "❌ KHÔNG HỖ TRỢ NỢ XẤU.",
+        ]
+    },
+    {
         order: 2,
         title: "VAY TÍN CHẤP SFinance ",
         link: "https://go.clickbuy.asia/click?a=75547&o=1313",
@@ -219,7 +235,7 @@ const CREDIT_CARDS = [
             "💰 Hạn mức 10 - 100 triệu.",
             "🧑 Tuổi 20 - 59.",
             "⚡ Tỷ lệ duyệt 90% (duyệt trong ngày).",
-            "🆗 KHÔNG HỖ TRỢ NỢ XẤU.",
+            "❌ KHÔNG HỖ TRỢ NỢ XẤU.",
         ]
     },
     // {
