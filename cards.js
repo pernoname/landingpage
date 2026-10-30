@@ -36,7 +36,7 @@ const CARDS = [
         ]
     },
     {
-        order: 3,
+        order: 4,
         title: "Finpug (APP MỚI CHẠY KPI NÊN RẤT DỄ DUYỆT)",
         //Link dinos
         //link: "https://ads.clickbuy.asia/click?a=75547&o=1257",
@@ -122,7 +122,7 @@ const CARDS = [
     {
         order: 2,
         title: "Moneyveo (TỶ LỆ DUYỆT CAO CỰC CAO)",
-        //link dinos
+        //Link dinos
         //link: "https://go.dinos.click/click?a=75547&o=663",
         // Link adpvn
         link: "https://adpvn.co/s/N2vBr",
@@ -145,7 +145,7 @@ const CARDS = [
         // Link adpvn (v2)
         link: "https://adpvn.co/s/Vw19Y",
         image: "./img/vayvnd.png",
-        badge: "🔥 HOT",
+        badge: "🔥SIÊU HOT",
         subs: [
             "💸 Giải ngân luôn, khỏi phải đợi.",
             "🎁 Lãi suất 0% khoản vay đầu.",
