@@ -39,9 +39,9 @@ const CARDS = [
         order: 4,
         title: "Finpug (APP MỚI CHẠY KPI NÊN RẤT DỄ DUYỆT)",
         //Link dinos
-        //link: "https://ads.clickbuy.asia/click?a=75547&o=1257",
+        link: "https://ads.clickbuy.asia/click?a=75547&o=1257",
         // Link adpvn
-        link: "https://adpvn.co/s/VdaJ5",
+        // link: "https://adpvn.co/s/VdaJ5",
         image: "./img/finpug.png",
         badge: "🔥SIÊU HOT",
         subs: [
@@ -88,9 +88,9 @@ const CARDS = [
         order: 6,
         title: "Vaymeo",
         // Link dinos
-        //link: "https://go.dinos.click/click?a=75547&o=1185",
+        link: "https://go.dinos.click/click?a=75547&o=1185",
         // Link adpvn
-        link: "https://adpvn.co/s/Ngpn5",
+        // link: "https://adpvn.co/s/Ngpn5",
         image: "./img/vaymeo.png",
         badge: "",
         subs: [
@@ -123,9 +123,9 @@ const CARDS = [
         order: 2,
         title: "Moneyveo (TỶ LỆ DUYỆT CAO CỰC CAO)",
         //Link dinos
-        //link: "https://go.dinos.click/click?a=75547&o=663",
+        link: "https://go.dinos.click/click?a=75547&o=663",
         // Link adpvn
-        link: "https://adpvn.co/s/N2vBr",
+        // link: "https://adpvn.co/s/N2vBr",
         image: "./img/moneyveo.png",
         badge: "🔥SIÊU HOT",
         subs: [
@@ -141,9 +141,9 @@ const CARDS = [
         order: 3,
         title: "VAYVND (TỈ LỆ DUYỆT CAO)",
         // Link dinos (v1)
-        //link: "https://go.dinos.click/click?a=75547&o=927",
+        link: "https://go.dinos.click/click?a=75547&o=927",
         // Link adpvn (v2)
-        link: "https://adpvn.co/s/Vw19Y",
+        // link: "https://adpvn.co/s/Vw19Y",
         image: "./img/vayvnd.png",
         badge: "🔥SIÊU HOT",
         subs: [
