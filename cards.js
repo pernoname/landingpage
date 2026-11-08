@@ -36,14 +36,14 @@ const CARDS = [
         ]
     },
     {
-        order: 4,
+        order: 5,
         title: "Finpug (APP MỚI CHẠY KPI NÊN RẤT DỄ DUYỆT)",
         //Link dinos
         link: "https://ads.clickbuy.asia/click?a=75547&o=1257",
         // Link adpvn
         // link: "https://adpvn.co/s/VdaJ5",
         image: "./img/finpug.png",
-        badge: "🔥SIÊU HOT",
+        badge: "🔥HOT",
         subs: [
             "✅ APP trung gian (RẤT HIỀN)",
             "💰 Hạn mức: 250K - 20 triệu",
@@ -85,21 +85,21 @@ const CARDS = [
     //     ]
     // },
     {
-        order: 6,
-        title: "Vaymeo",
+        order: 1,
+        title: "Vaymeo (TỶ LỆ DUYỆT CAO NHẤT)",
         // Link dinos
         link: "https://go.dinos.click/click?a=75547&o=1185",
         // Link adpvn
         // link: "https://adpvn.co/s/Ngpn5",
         image: "./img/vaymeo.png",
-        badge: "",
+        badge: "🔥SIÊU HOT",
         subs: [
-            "✅ NÊN VAY — Chỉ cần CCCD.",
             "💰 Hạn mức: 1 - 10 triệu.",
             "📅 Kỳ hạn: 91 - 180 ngày.",
             "📊 Lãi suất từ 0,01%.",
             "🧑 Tuổi 22 - 60.",
-            "🆗 HỖ TRỢ NỢ XẤU.",
+            "⚡ Duyệt sau 10 phút đăng ký.",
+            "🆗 CÂN MỌI THỂ LOẠI NỢ XẤU.",
         ]
     },
     {
@@ -107,7 +107,7 @@ const CARDS = [
         title: "LetoCredit",
         link: "https://go.clickbuy.asia/click?a=75547&o=1435",
         image: "./img/letocredit.png",
-        badge: "🔥 HOT",
+        badge: "",
         subs: [
             "✅ APP MỚI (DỄ DUYỆT AE NÊN THỬ).",
             "💸 Giải ngân nhanh chóng.",
@@ -120,8 +120,8 @@ const CARDS = [
         ]
     },
     {
-        order: 2,
-        title: "Moneyveo (TỶ LỆ DUYỆT CAO CỰC CAO)",
+        order: 4,
+        title: "Moneyveo (TỶ LỆ DUYỆT CAO",
         //Link dinos
         link: "https://go.dinos.click/click?a=75547&o=663",
         // Link adpvn
@@ -171,8 +171,8 @@ const CARDS = [
     //     ]
     // },
     {
-        order: 1,
-        title: "MoneyCat (APP HOT TỶ LỆ DUYỆT CỰC CAO)",
+        order: 2,
+        title: "MoneyCat (TỶ LỆ DUYỆT CAO)",
         link: "https://go.dinos.click/click?a=75547&o=762",
         image: "./img/moneycat.png",
         badge: "🔥SIÊU HOT",
@@ -185,11 +185,11 @@ const CARDS = [
         ]
     },
     {
-        order: 4,
+        order: 6,
         title: "Dong247 (NGƯỜI MỚI XÉT DUYỆT NHANH)",
         link: "https://go.dinos.click/click?a=75547&o=302",
         image: "./img/dong247.png",
-        badge: "🔥 HOT",
+        badge: "",
         subs: [
             "💰 Vay đầu 5 triệu.",
             "🪪 Chỉ cần CCCD là có thể vay.",
@@ -204,67 +204,67 @@ const CARDS = [
 //  Dữ liệu thẻ tín dụng & vay công ty tài chính
 //  Thêm app mới vào đây theo cùng cấu trúc như CARDS
 // ============================================================
-const CREDIT_CARDS = [
-    // {
-    //     order: 1,
-    //     title: "THẺ TÍN DỤNG VPBANK",
-    //     link: "https://go.clickbuy.asia/click?a=75547&o=1174",
-    //     image: "./img/vpbank.png",
-    //     badge: "🔥 HOT",
-    //     subs: [
-    //         "🎁 Lãi suất lần đầu 0%.",
-    //         "💰 Hạn mức lên đến 100 triệu.",
-    //         "🧑 Tuổi 22 - 60.",
-    //         "🪪 Chỉ cần CCCD + Selfie là xong.",
-    //         "⚡ Tỷ lệ duyệt 85%.",
-    //         "🆗 KHÔNG HỖ TRỢ NỢ XẤU.",
-    //     ]
-    // },
-    {
-        order: 1,
-        title: "FE Credit",
-        link: "https://shorten.asia/jsNWgj1H",
-        image: "./img/fe-credit.jpg",
-        badge: "🔥 HOT",
-        subs: [
-            "✅ ƯU TIÊN khách hàng cũ sẽ được giải ngân cao hơn.",
-            "💰 Có thu nhập trên 4M/tháng.",
-            "💰 Khoản vay từ 10 - 70 triệu.",
-            "📅 Kỳ hạn: 6 - 36 tháng",
-            "🧑 Tuổi từ 20 trở lên",
-            "📞 Chú ý nghe điện thoại.",
-            "❌ KHÔNG HỖ TRỢ NỢ XẤU.",
-        ]
-    },
-    {
-        order: 2,
-        title: "VAY TÍN CHẤP SFinance ",
-        link: "https://go.clickbuy.asia/click?a=75547&o=1313",
-        image: "./img/sfinance.png",
-        badge: "🔥 HOT",
-        subs: [
-            "🎁 Lãi suất từ 1.37%/tháng.",
-            "💰 Hạn mức 10 - 100 triệu.",
-            "🧑 Tuổi 20 - 59.",
-            "⚡ Tỷ lệ duyệt 90% (duyệt trong ngày).",
-            "❌ KHÔNG HỖ TRỢ NỢ XẤU.",
-        ]
-    },
-    // {
-    //     order: 3,
-    //     title: "VAYXANH",
-    //     link: "https://go.clickbuy.asia/click?a=75547&o=1440",
-    //     image: "./img/vayxanh.png",
-    //     badge: "",
-    //     subs: [
-    //         "✅ ƯU TIÊN (APP MỚI DUYỆT NHANH).",
-    //         "💰 Vay đầu tiên 500K - 15 triệu.",
-    //         "🪪 Chỉ cần CCCD là có thể vay.",
-    //         "🧑 Tuổi 18 - 65.",
-    //         "⚡ Tỉ lệ duyệt 99%."
-    //     ]
-    // },
-];
+// const CREDIT_CARDS = [
+//     // {
+//     //     order: 1,
+//     //     title: "THẺ TÍN DỤNG VPBANK",
+//     //     link: "https://go.clickbuy.asia/click?a=75547&o=1174",
+//     //     image: "./img/vpbank.png",
+//     //     badge: "🔥 HOT",
+//     //     subs: [
+//     //         "🎁 Lãi suất lần đầu 0%.",
+//     //         "💰 Hạn mức lên đến 100 triệu.",
+//     //         "🧑 Tuổi 22 - 60.",
+//     //         "🪪 Chỉ cần CCCD + Selfie là xong.",
+//     //         "⚡ Tỷ lệ duyệt 85%.",
+//     //         "🆗 KHÔNG HỖ TRỢ NỢ XẤU.",
+//     //     ]
+//     // },
+//     {
+//         order: 1,
+//         title: "FE Credit",
+//         link: "https://shorten.asia/jsNWgj1H",
+//         image: "./img/fe-credit.jpg",
+//         badge: "🔥 HOT",
+//         subs: [
+//             "✅ ƯU TIÊN khách hàng cũ sẽ được giải ngân cao hơn.",
+//             "💰 Có thu nhập trên 4M/tháng.",
+//             "💰 Khoản vay từ 10 - 70 triệu.",
+//             "📅 Kỳ hạn: 6 - 36 tháng",
+//             "🧑 Tuổi từ 20 trở lên",
+//             "📞 Chú ý nghe điện thoại.",
+//             "❌ KHÔNG HỖ TRỢ NỢ XẤU.",
+//         ]
+//     },
+//     {
+//         order: 2,
+//         title: "VAY TÍN CHẤP SFinance ",
+//         link: "https://go.clickbuy.asia/click?a=75547&o=1313",
+//         image: "./img/sfinance.png",
+//         badge: "🔥 HOT",
+//         subs: [
+//             "🎁 Lãi suất từ 1.37%/tháng.",
+//             "💰 Hạn mức 10 - 100 triệu.",
+//             "🧑 Tuổi 20 - 59.",
+//             "⚡ Tỷ lệ duyệt 90% (duyệt trong ngày).",
+//             "❌ KHÔNG HỖ TRỢ NỢ XẤU.",
+//         ]
+//     },
+//     // {
+//     //     order: 3,
+//     //     title: "VAYXANH",
+//     //     link: "https://go.clickbuy.asia/click?a=75547&o=1440",
+//     //     image: "./img/vayxanh.png",
+//     //     badge: "",
+//     //     subs: [
+//     //         "✅ ƯU TIÊN (APP MỚI DUYỆT NHANH).",
+//     //         "💰 Vay đầu tiên 500K - 15 triệu.",
+//     //         "🪪 Chỉ cần CCCD là có thể vay.",
+//     //         "🧑 Tuổi 18 - 65.",
+//     //         "⚡ Tỉ lệ duyệt 99%."
+//     //     ]
+//     // },
+// ];
 
 // ============================================================
 //  Render thẻ tín dụng — KHÔNG CẦN CHỈNH SỬA PHẦN DƯỚI
