@@ -19,7 +19,7 @@
 
 const CARDS = [
     {
-        order: 7,
+        order: 6,
         title: "Creditnice",
         link: "https://go.dinos.click/click?a=75547&o=990",
         image: "./img/creditnice.png",
@@ -56,7 +56,7 @@ const CARDS = [
         ]
     },
     {
-        order: 8,
+        order: 7,
         title: "Crezu",
         link: "https://go.dinos.click/click?a=75547&o=125",
         image: "./img/crezu.png",
@@ -103,7 +103,7 @@ const CARDS = [
         ]
     },
     {
-        order: 5,
+        order: 8,
         title: "LetoCredit",
         link: "https://go.clickbuy.asia/click?a=75547&o=1435",
         image: "./img/letocredit.png",
@@ -185,7 +185,7 @@ const CARDS = [
         ]
     },
     {
-        order: 6,
+        order: 9,
         title: "Dong247 (NGƯỜI MỚI XÉT DUYỆT NHANH)",
         link: "https://go.dinos.click/click?a=75547&o=302",
         image: "./img/dong247.png",
@@ -197,7 +197,22 @@ const CARDS = [
             "⚡ Tỉ lệ duyệt 99%.",
             "🆗 HỖ TRỢ NỢ XẤU.",
         ]
-    }
+    },
+    {
+        order: 10,
+        title: "VAYXANH",
+        link: "https://go.clickbuy.asia/click?a=75547&o=1454",
+        image: "./img/vayxanh.png",
+        badge: "",
+        subs: [
+            "✅ ƯU TIÊN (APP MỚI DUYỆT NHANH).",
+            "💰 Vay đầu tiên 500K - 15 triệu.",
+            "🪪 Chỉ cần CCCD là có thể vay.",
+            "🧑 Tuổi 18 - 65.",
+            "⚡ Tỉ lệ duyệt 99%.",
+            "🆗 HỖ TRỢ NỢ XẤU.",
+        ]
+    },
 ];
 
 // ============================================================
@@ -253,7 +268,7 @@ const CARDS = [
 //     // {
 //     //     order: 3,
 //     //     title: "VAYXANH",
-//     //     link: "https://go.clickbuy.asia/click?a=75547&o=1440",
+//     //     link: "https://go.clickbuy.asia/click?a=75547&o=1454",
 //     //     image: "./img/vayxanh.png",
 //     //     badge: "",
 //     //     subs: [
