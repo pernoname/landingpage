@@ -119,7 +119,7 @@ const CARDS = [
     },
     {
         order: 4,
-        title: "Moneyveo (TỶ LỆ DUYỆT CAO",
+        title: "Moneyveo (TỶ LỆ DUYỆT CAO)",
         //Link dinos
         link: "https://go.dinos.click/click?a=75547&o=663",
         // Link adpvn
