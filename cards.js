@@ -19,7 +19,7 @@
 
 const CARDS = [
     {
-        order: 6,
+        order: 7,
         title: "Creditnice",
         link: "https://go.dinos.click/click?a=75547&o=990",
         image: "./img/creditnice.png",
@@ -36,7 +36,7 @@ const CARDS = [
         ]
     },
     {
-        order: 5,
+        order: 6,
         title: "Finpug (APP MỚI CHẠY KPI NÊN RẤT DỄ DUYỆT)",
         //Link dinos
         link: "https://ads.clickbuy.asia/click?a=75547&o=1257",
@@ -103,19 +103,17 @@ const CARDS = [
         ]
     },
     {
-        order: 8,
-        title: "LetoCredit",
+        order: 5,
+        title: "LetoCredit (CHỈ CẦN ĐIỀN THÔNG TIN RỒI CHỜ NHẬN TIỀN)",
         link: "https://go.clickbuy.asia/click?a=75547&o=1435",
         image: "./img/letocredit.png",
-        badge: "",
+        badge: "🔥HOT",
         subs: [
-            "✅ APP MỚI (DỄ DUYỆT AE NÊN THỬ).",
             "💸 Giải ngân nhanh chóng.",
-            "🎁 Lãi suất chỉ từ 0,01%.",
             "💰 Vay đầu tiên lên tới 5 triệu.",
             "🪪 Chỉ cần CCCD là có thể vay.",
             "🧑 Tuổi 18 - 60.",
-            "⚡ Duyệt sau 15 phút.",
+            "⚡ Duyệt ngay sau 15 phút.",
             "🆗 HỖ TRỢ NỢ XẤU.",
         ]
     },
@@ -170,20 +168,20 @@ const CARDS = [
     //         "⚡ Tỉ lệ duyệt 99%."
     //     ]
     // },
-    {
-        order: 2,
-        title: "MoneyCat (TỶ LỆ DUYỆT CAO)",
-        link: "https://go.dinos.click/click?a=75547&o=762",
-        image: "./img/moneycat.png",
-        badge: "🔥SIÊU HOT",
-        subs: [
-            "💰 Vay đầu tiên 500K - 10 triệu.",
-            "🪪 Chỉ cần CCCD là có thể vay.",
-            "🧑 Tuổi 22 - 60.",
-            "⚡ Tỉ lệ duyệt 99%.",
-            "🆗 HỖ TRỢ NỢ XẤU.",
-        ]
-    },
+    // {
+    //     order: 2,
+    //     title: "MoneyCat (TỶ LỆ DUYỆT CAO)",
+    //     link: "https://go.dinos.click/click?a=75547&o=762",
+    //     image: "./img/moneycat.png",
+    //     badge: "🔥SIÊU HOT",
+    //     subs: [
+    //         "💰 Vay đầu tiên 500K - 10 triệu.",
+    //         "🪪 Chỉ cần CCCD là có thể vay.",
+    //         "🧑 Tuổi 22 - 60.",
+    //         "⚡ Tỉ lệ duyệt 99%.",
+    //         "🆗 HỖ TRỢ NỢ XẤU.",
+    //     ]
+    // },
     {
         order: 9,
         title: "Dong247 (NGƯỜI MỚI XÉT DUYỆT NHANH)",
